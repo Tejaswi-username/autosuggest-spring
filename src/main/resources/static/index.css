@@ -1,10 +1,26 @@
 body{
     margin: 0px;
 }
-h1{
-    color:chartreuse;
+
+h1 {
+    color: red;
 }
+
 .navbar{
-    border-style:solid;
-    
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color:brown;
+    background-color:chocolate;
+
 }
