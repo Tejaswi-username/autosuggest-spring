@@ -50,3 +50,8 @@ h1 {
     width: 80%;
     border-radius: 8px;
 }
+.card button:hover{
+    color:dimgrey;
+    background-color:gray;
+    
+}
