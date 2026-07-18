@@ -1,27 +1,49 @@
 body{
-    margin: 0px;
+    margin:0px;
+    backgroud-colour:rgb(184, 182, 175);
 }
 
 h1 {
-    color: red;
+    color:red;
 }
 
 .navbar{
-    border-style: solid;
-    border-width: 1px;
-    border-color: gray;
-    padding: 20px;
-    text-align: center;
+    border-style:solid;
+    border-width:1px;
+    border-color:red;
+    padding:20px;
+    text-align:center;
+    background-color:orange;
 }
 
 .navbar a{
-    padding: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+    padding:20px;
+    text-decoration:none;
+    color:black;
+    font-size:20px;
 }
 .navbar a:hover{
     color:brown;
     background-color:chocolate;
 
+}
+.card{
+    width:350px;
+    border-radius:30px;
+    text-align: center;
+    margin-top:70px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-colour:rgb(171, 42, 42);
+}
+.card img{
+    width:100%;
+}
+.card button{
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
 }
